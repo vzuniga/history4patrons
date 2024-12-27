@@ -1,0 +1,2 @@
+# history4patrons
+ history4patrons is a web application designed to streamline access to library patrons' reading history. It allows library staff to input a patron record number and generate a downloadable CSV file of the patron's checkout history, provided they have opted into the library's Reading History feature. The application includes robust client-side and server-side validation to ensure secure and accurate record retrieval. With its intuitive interface, history4patrons simplifies managing and exporting reading history data for libraries.
