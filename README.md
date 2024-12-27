@@ -1,6 +1,6 @@
 **Overview**
 
-The Patron Reading History Web App is a Flask-based web application designed to allow staff users to retrieve a patron reading history from the library's database. Library staff can input a patron record number to download a CSV file containing the patron's reading history, provided they have opted-in to the library's Reading History feature.
+The Patron Reading History Web App, history4patrons, is a Flask-based web application designed to allow staff users to retrieve a patron reading history from the library's database. Library staff can input a patron record number to download a CSV file containing the patron's reading history, provided they have opted-in to the library's Reading History feature.
 ________________________________________
 **Purpose**
 
