@@ -1,12 +1,11 @@
 # Overview
 
 The Patron Reading History Web App, history4patrons, is a Flask-based web application designed to allow staff users to retrieve a patron reading history from the library's database. Library staff can input a patron record number to download a CSV file containing the patron's reading history, provided they have opted-in to the library's Reading History feature.
-________________________________________
+
 # Purpose
 
 This application was created to streamline access to library reading history data for patrons while ensuring secure and efficient interaction with the underlying database. The app enforces input validation and provides informative feedback to enhance usability and prevent errors.
 
-________________________________________
 
 # Features
 
@@ -15,9 +14,9 @@ ________________________________________
 3.	Dynamic CSV Generation: Generates and downloads a CSV file containing the reading history.
 4.	Error Handling: Provides feedback for invalid inputs and scenarios without data.
 5.	Secure Database Interaction: Uses SQLAlchemy for database queries and connection management.
-________________________________________
 
-**Required Libraries**
+
+# Required Libraries
 
 Ensure the following Python libraries are installed:
 ```Python
@@ -32,9 +31,9 @@ pip install flask sqlalchemy psycopg2 pandas
 -	psycopg2: PostgreSQL database adapter.
 -	pandas: Data manipulation and CSV generation.
 
-________________________________________
 
-**Application Workflow**
+
+# Application Workflow
 
 1.	The user visits the web page and enters their patron record number in the input box.
 2.	Input is validated both on the client (using JavaScript) and server-side (using Python regular expressions).
@@ -42,9 +41,9 @@ ________________________________________
 4.	If records are found, a CSV file is generated dynamically and provided for download.
 5.	Appropriate error messages are displayed if no records are found or the input is invalid.
     
-________________________________________
 
-**Validation Rules**
+
+# Validation Rules
 
 **Client-Side Validation (JavaScript):**
 
@@ -60,9 +59,9 @@ ________________________________________
 1.	The input must match the regular expression: ^p[a-zA-Z0-9]*a$.
 2.	If validation fails, the user is shown an error message on the web page.
 
-________________________________________
 
-**Database Interaction**
+
+# Database Interaction
 
 The app uses SQLAlchemy to interact with the library's database. The query retrieves reading history from the sierra_view.reading_history and sierra_view.bib_record_property views.
 
@@ -83,9 +82,9 @@ ORDER BY rh.checkout_gmt DESC;
 
 ```
 
-________________________________________
 
-**Error Handling**
+
+# Error Handling
 
 **Scenarios and Responses:**
 
@@ -95,9 +94,8 @@ ________________________________________
 2.	**No Records Found:**
 -	Message displayed: "Please make sure the patron record number entered is valid, or the patron has opted-in for the Reading History feature."
 
-________________________________________
 
-**File Naming Convention**
+# File Naming Convention
 
 The generated CSV file follows the pattern:
 
@@ -105,9 +103,9 @@ patron-record-number_Reading-History.csv
 
 Example: p12345a_Reading-History.csv
 
-________________________________________
 
-**Deployment**
+
+# Deployment
 
 1.	Save the script to a file, e.g., app.py.
 2.	Run the Flask application locally:
