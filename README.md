@@ -22,6 +22,16 @@ Under the current procedure, it takes 10 steps to export the Patron Reading Hist
 
 ![Screenshot of a visual diagram showing the steps to export the Patron Reading History via Encore.](/assets/images/Patron-Reading-History_Encore-Steps.png)
 
+The Patron Reading History web app simplifies the process to 4 steps:
+
+1. Access the application in a web browser at http://127.0.0.1:5000
+2. Type the patron's record number
+3. Click Submit
+4. Save the .csv file on your work desktop computer 
+
+
+![Screenshot of a visual diagram showing the steps to export the Patron Reading History via the patron reading history web app.](/assets/images/Patron-Reading-History_history4patrons-Steps.png)
+
 
 # Features
 
