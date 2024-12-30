@@ -89,7 +89,7 @@ pip install flask sqlalchemy psycopg2 pandas
 
 # Database Interaction
 
-The app uses SQLAlchemy to interact with the library's database. The query retrieves reading history from the sierra_view.reading_history and sierra_view.bib_record_property views.
+The app uses SQLAlchemy to interact with the library's database. The query retrieves data from the sierra_view.reading_history and sierra_view.bib_record_property views.
 
 Query:
 
