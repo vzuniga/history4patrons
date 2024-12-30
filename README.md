@@ -20,7 +20,7 @@ Under the current procedure, it takes 10 steps to export the Patron Reading Hist
 10. You'll see an email with the subject line "From the library catalog"
     - The content of the message will list all unique entries available on your reading history
 
-![Screenshot of a visual diagram showing the steps to export the Patron Reading History via Encore.](/assets/images/Patron-Reading-History_Encore-Steps.png)
+![Screenshot of a visual diagram showing the steps to export the Patron Reading History via Encore.](/assets/images/Patron-Reading-History_History4Patrons-Steps.png)
 
 The Patron Reading History web app simplifies the process to 4 steps:
 
