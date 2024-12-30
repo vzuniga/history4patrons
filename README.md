@@ -30,7 +30,7 @@ The Patron Reading History web app simplifies the process to 4 steps:
 4. Save the .csv file on your work desktop computer 
 
 
-![Screenshot of a visual diagram showing the steps to export the Patron Reading History via the patron reading history web app.](/assets/images/Patron-Reading-History_history4patrons-Steps.png)
+![Screenshot of a visual diagram showing the steps to export the Patron Reading History via the patron reading history web app.](/assets/images/Patron-Reading-History_History4Patrons-Steps.png)
 
 
 # Features
