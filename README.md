@@ -133,12 +133,12 @@ Example: p12345a_Reading-History.csv
 
 # Deployment
 
-1.	Save the script to a file, e.g., app.py.
+1.	Locate the file history4patrons.py.
 2.	Run the Flask application locally:
 
 ```Python
 
-python app.py
+python history4patrons.py
 
 ```
  
