@@ -76,8 +76,8 @@ pip install flask sqlalchemy psycopg2 pandas
 1.	The input must:
 -	Start with the letter "p".
 -	End with the letter "a".
--	Contain only alphanumeric characters in between.
--	Be at most 20 characters long.
+-	Contain only numeric values in between.
+-	Be at most 10 characters long.
 2.	Invalid inputs trigger an alert, preventing form submission.
 
 **Server-Side Validation (Python):**
