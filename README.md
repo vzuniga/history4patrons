@@ -91,7 +91,7 @@ pip install flask sqlalchemy psycopg2 pandas
 
 The app uses SQLAlchemy to interact with the library's database. The query retrieves data from the sierra_view.reading_history and sierra_view.bib_record_property views.
 
-Alternatively, you could retrieve the data via the [pgAdmin] (https://www.pgadmin.org/) or [HeidiSQL] (https://www.heidisql.com/) clients using the Reading_History_Query-list-by-specific-patron-record-number.sql file.
+Alternatively, you could retrieve the data via the [pgAdmin](https://www.pgadmin.org/) or [HeidiSQL](https://www.heidisql.com/) clients using the Reading_History_Query-list-by-specific-patron-record-number.sql file.
 
 
 
