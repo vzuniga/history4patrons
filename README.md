@@ -91,22 +91,7 @@ pip install flask sqlalchemy psycopg2 pandas
 
 The app uses SQLAlchemy to interact with the library's database. The query retrieves data from the sierra_view.reading_history and sierra_view.bib_record_property views.
 
-Query:
-
-``` SQL
-
-SELECT
-    brp.best_title AS "Title",
-    brp.best_author AS "Author",
-    id2reckey(rh.item_record_metadata_id) || 'a' AS "Item Number",
-    TO_CHAR(rh.checkout_gmt::DATE, 'MM/DD/YYYY') AS "Checkedout Date"
-FROM sierra_view.reading_history rh
-LEFT JOIN sierra_view.bib_record_property brp
-    ON rh.bib_record_metadata_id = brp.bib_record_id
-WHERE rh.patron_record_metadata_id = reckey2id(%s)
-ORDER BY rh.checkout_gmt DESC; 
-
-```
+Alternatively, you could retrieve the data via the [pgAdmin] (https://www.pgadmin.org/) or [HeidiSQL] (https://www.heidisql.com/) clients using the Reading_History_Query-list-by-specific-patron-record-number.sql file.
 
 
 
